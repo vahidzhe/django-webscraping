@@ -25,7 +25,7 @@ app.conf.beat_schedule = {
     # executes every 1 minute
     "scraping-task-five-min": {
         "task": "product.tasks.scapy",
-         "schedule": crontab(minute=21, hour="*/1")
+         "schedule": crontab(minute=0, hour="*/1")
          }
 }
 
